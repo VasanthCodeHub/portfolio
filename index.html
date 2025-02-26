@@ -91,7 +91,7 @@
   <!-- Section Title -->
   <div class="container section-title text-center" data-aos="fade-up">
     <h2 class="fw-bold text-gradient">About Me</h2>
-    <p class="text-muted">I am a dedicated and skilled engineering student passionate about Android development. Proficient in Android Studio and Java, with a strong foundation in software development principles. Eager to leverage academic knowledge and hands-on experience to contribute to innovative Android projects.</p>
+    <p class="text-muted">I am a dedicated and skilled engineering student passionate about Android development. Proficient in Android Studio, Kotlin, and Java, with a strong foundation in software development principles. Experienced in modern Android technologies, including Jetpack Compose, Room Database, Retrofit, and RESTful APIs. Eager to leverage academic knowledge and hands-on experience to contribute to innovative Android projects.</p>
   </div><!-- End Section Title -->
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -102,7 +102,7 @@
       <div class="col-lg-8 content">
         <h2 class="fw-bold text-gradient">Android App Developer & UI/UX Designer</h2>
         <p class="fst-italic py-3">
-          I specialize in designing and developing intuitive Android applications that provide seamless user experiences. My expertise lies in Java, Firebase, and UI/UX design, ensuring that every app I create is both functional and visually appealing.
+          I specialize in designing and developing intuitive Android applications that provide seamless user experiences. My expertise lies in Kotlin, Java, Jetpack Compose, Firebase, Room Database, Retrofit, and UI/UX design, ensuring that every app I create is both functional and visually appealing.
         </p>
         <div class="row">
           <div class="col-lg-6">
@@ -168,8 +168,7 @@
         </div>
 
       </div>
-
-   <section id="skills" class="skills section light-background">
+<section id="skills" class="skills section light-background">
   <!-- Section Title -->
   <div class="container section-title text-center" data-aos="fade-up">
     <h2 class="fw-bold">My Skills & Expertise</h2>
@@ -179,11 +178,12 @@
   <div class="container" data-aos="fade-up" data-aos-delay="100">
     <div class="row skills-content">
 
+      <!-- Left Column -->
       <div class="col-lg-6">
         <div class="progress">
-          <span class="skill"><i class="fab fa-android"></i> Android Studio <i class="val">100%</i></span>
+          <span class="skill"><i class="fab fa-android"></i> Android Studio <i class="val">80%</i></span>
           <div class="progress-bar-wrap">
-            <div class="progress-bar gradient-bar" style="width: 100%;"></div>
+            <div class="progress-bar gradient-bar" style="width: 80%;"></div>
           </div>
         </div><!-- End Skills Item -->
 
@@ -195,14 +195,43 @@
         </div><!-- End Skills Item -->
 
         <div class="progress">
-          <span class="skill"><i class="fas fa-database"></i> SQLite <i class="val">75%</i></span>
+          <span class="skill"><i class="fab fa-korvue"></i> Kotlin <i class="val">70%</i></span>
           <div class="progress-bar-wrap">
-            <div class="progress-bar gradient-bar" style="width: 75%;"></div>
+            <div class="progress-bar gradient-bar" style="width: 70%;"></div>
+          </div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress">
+          <span class="skill"><i class="fas fa-server"></i> Retrofit & RESTful APIs <i class="val">65%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar gradient-bar" style="width: 65%;"></div>
+          </div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress">
+          <span class="skill"><i class="fas fa-cloud"></i> Firebase (Firestore & FCM) <i class="val">85%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar gradient-bar" style="width: 85%;"></div>
           </div>
         </div><!-- End Skills Item -->
       </div>
 
+      <!-- Right Column -->
       <div class="col-lg-6">
+        <div class="progress">
+          <span class="skill"><i class="fas fa-layer-group"></i> Jetpack Compose <i class="val">55%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar gradient-bar" style="width: 55%;"></div>
+          </div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress">
+          <span class="skill"><i class="fas fa-database"></i> Room Database <i class="val">70%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar gradient-bar" style="width: 70%;"></div>
+          </div>
+        </div><!-- End Skills Item -->
+
         <div class="progress">
           <span class="skill"><i class="fas fa-code"></i> Data Structures & Algorithms <i class="val">55%</i></span>
           <div class="progress-bar-wrap">
@@ -211,9 +240,16 @@
         </div><!-- End Skills Item -->
 
         <div class="progress">
-          <span class="skill"><i class="fas fa-paint-brush"></i> Canva <i class="val">95%</i></span>
+          <span class="skill"><i class="fas fa-paint-brush"></i> UI/UX Design (Canva & Photoshop) <i class="val">95%</i></span>
           <div class="progress-bar-wrap">
             <div class="progress-bar gradient-bar" style="width: 95%;"></div>
+          </div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress">
+          <span class="skill"><i class="fas fa-code-branch"></i> Git & GitHub <i class="val">80%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar gradient-bar" style="width: 80%;"></div>
           </div>
         </div><!-- End Skills Item -->
       </div>
@@ -254,9 +290,54 @@
   .gradient-bar {
     background: linear-gradient(90deg, #007bff, #00d4ff);
   }
+  .resume-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  .resume-item h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #007bff;
+  }
+  .resume-item h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  .resume-item ul {
+    padding-left: 20px;
+  }
+  .resume-item ul li {
+    margin-bottom: 10px;
+  }
+  .resume-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  .resume-item strong {
+    color: #007bff; /* Highlight color for bold words */
+    font-weight: 700;
+  }
+  .btn-primary {
+    background: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .btn-primary:hover {
+    background: #0056b3;
+  }
 </style>
 
-   <!-- Resume Section -->
+<!-- Resume Section -->
 <section id="resume" class="resume section">
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
@@ -268,7 +349,7 @@
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <h3 class="resume-title">Career Summary</h3>
         <div class="resume-item pb-0">
-          <p><em>Dedicated and skilled engineering student with a passion for Android development. Proficient in Android Studio and Java, with a strong foundation in software development principles. Eager to leverage academic knowledge and hands-on experience to contribute to innovative Android projects.</em></p>
+          <p><em>Dedicated and skilled <strong>Android Developer</strong> with expertise in <strong>Java, Kotlin, and Firebase</strong>. Passionate about building <strong>user-friendly</strong> and <strong>efficient</strong> mobile applications. Strong knowledge in <strong>UI/UX Design, API Integration, and Database Management</strong>.</em></p>
         </div><!-- End Resume Item -->
 
         <h3 class="resume-title">Projects</h3>
@@ -276,74 +357,117 @@
         <div class="resume-item">
           <h4>Campus Connect</h4>
           <h5>January 2024</h5>
-          <p><em>Developed an Android app for managing leave requests and bus tracking, utilizing Firebase for data storage, FCM for notifications, and Google Maps API for location tracking. The app improved administrative efficiency by 30%.</em></p>
+          <p><em>A feature-rich <strong>Android app</strong> for <strong>students, professors, and drivers</strong> to manage <strong>leave requests and bus tracking</strong>.</em></p>
           <ul>
-            <li>Submit leave requests with instant notifications sent to professors.</li>
-            <li>View professors' responses on their mobile devices.</li>
-            <li>Access real-time bus location tracking on Google Maps.</li>
+            <li>Students can <strong>submit leave requests</strong>, and professors receive <strong>instant notifications</strong>.</li>
+            <li>Professors can <strong>approve or decline</strong> requests via the app.</li>
+            <li>Real-time <strong>bus location tracking</strong> using <strong>Google Maps API</strong>.</li>
           </ul>
+          <p><strong>Key Skills:</strong> <strong>Java</strong>, <strong>Firebase</strong>, <strong>Google Maps API</strong>, <strong>Push Notifications</strong>, <strong>UI/UX Design</strong></p>
         </div><!-- End Resume Item -->
 
         <div class="resume-item">
           <h4>Attendance Tracker</h4>
           <h5>March 2024</h5>
-          <p><em>Created an Android app to facilitate daily attendance tracking for professors, built using SQLite. This improved attendance tracking accuracy by 40%.</em></p>
+          <p><em>An <strong>Android app</strong> built with <strong>SQLite</strong> to assist professors in tracking <strong>student attendance</strong> more efficiently.</em></p>
           <ul>
-            <li>Efficiently records attendance for multiple years.</li>
-            <li>Provides a user-friendly interface to manage records.</li>
+            <li>Allows <strong>attendance marking</strong> for multiple classes and batches.</li>
+            <li>Provides a <strong>user-friendly interface</strong> for quick record management.</li>
           </ul>
+          <p><strong>Key Skills:</strong> <strong>Java</strong>, <strong>SQLite</strong>, <strong>Material Design</strong>, <strong>Data Management</strong></p>
         </div><!-- End Resume Item -->
 
+        
         <div class="resume-item">
-          <h4>ODS (One Day Shift)</h4>
-          <h5>November 2023</h5>
-          <p><em>Developed an Android app for short-term job opportunities, connecting Work Providers and Workers. The app increased job-matching efficiency by 50%.</em></p>
+          <h4>Note App</h4>
+          <h5>July 2024</h5>
+          <p><em>A simple and <strong>efficient</strong> <strong>note-taking app</strong> built using <strong>Room Database</strong> and <strong>MVVM Architecture</strong>.</em></p>
           <ul>
-            <li>Work Providers: Easily post one-day job details.</li>
-            <li>Workers: Browse and apply for short-term work opportunities.</li>
+            <li>Users can <strong>create, edit, and delete notes</strong> effortlessly.</li>
+            <li><strong>Room Database</strong> ensures data persistence and efficient local storage.</li>
+            <li>Modern <strong>UI/UX design</strong> for an intuitive user experience.</li>
           </ul>
+          <p><strong>Key Skills:</strong> <strong>Kotlin</strong>, <strong>Room Database</strong>, <strong>MVVM Architecture</strong>, <strong>LiveData</strong>, <strong>UI/UX Design</strong></p>
         </div><!-- End Resume Item -->
+         <div class="resume-item">
+          <h4>Weather App</h4>
+          <h5>October 2024</h5>
+          <p><em>An <strong>Android app</strong> that provides <strong>real-time weather updates</strong> based on user location.</em></p>
+          <ul>
+            <li>Uses <strong>OpenWeather API</strong> for fetching live weather data.</li>
+            <li>Displays <strong>temperature, humidity, wind speed, and forecast</strong> in an intuitive UI.</li>
+            <li>Supports <strong>city search</strong> for checking weather in different locations.</li>
+          </ul>
+          <p><strong>Key Skills:</strong> <strong>Kotlin</strong>, <strong>Retrofit</strong>, <strong>OpenWeather API</strong>, <strong>UI/UX Design</strong>, <strong>Location Services</strong></p>
+        </div><!-- End Resume Item -->
+
+         <div class="resume-item">
+          <h4>Quiz App</h4>
+          <h5>December 2024</h5>
+          <p><em>A <strong>fun and interactive quiz app</strong> where users select the correct <strong>country names</strong> from a given list.</em></p>
+          <ul>
+            <li>Presents a list of <strong>countries</strong>, and users select the <strong>right or wrong</strong> answer.</li>
+            <li>Displays a <strong>final score and result summary</strong> at the end.</li>
+            <li>Engaging <strong>UI with animations</strong> for a better user experience.</li>
+          </ul>
+          <p><strong>Key Skills:</strong> <strong>Kotlin</strong>, <strong>Jetpack Compose</strong>, <strong>Animations</strong>, <strong>Material3</strong></p>
+        </div><!-- End Resume Item -->
+
 
       </div>
 
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+
         <h3 class="resume-title">Education</h3>
 
         <div class="resume-item">
           <h4>Diploma in Mechanical Engineering</h4>
           <h5>June 2018 - March 2021</h5>
           <p><em>Sri Ramakrishna Mission Vidyalaya Polytechnic College, Coimbatore, Tamil Nadu</em></p>
-          <p>Percentage: 91.12%</p>
+          <p>Percentage: <strong>91.12%</strong></p>
         </div><!-- End Diploma Education Item -->
 
         <div class="resume-item">
           <h4>Bachelor of Engineering in Mechanical Engineering</h4>
           <h5>August 2022 - Present</h5>
           <p><em>Sri Ranganathar Institute of Engineering and Technology, Coimbatore, Tamil Nadu</em></p>
-          <p>CGPA: 8.9</p>
+          <p>CGPA: <strong>8.9</strong></p>
         </div><!-- End BE Education Item -->
 
         <!-- Certificates Section -->
         <h3 class="resume-title">Certificates</h3>
 
         <div class="resume-item">
+          <h4>Kotlin & Android App Development</h4>
+          <h5>Udemy</h5>
+          <p><em>Completed a comprehensive course on <strong>Kotlin programming</strong> and <strong>Android app development</strong>. Gained hands-on experience in building <strong>modern Android applications</strong> using <strong>Kotlin, Jetpack Components, and Android Studio</strong>.</em></p>
+          <ul>
+            <li>Learned <strong>Kotlin fundamentals</strong>, including <strong>object-oriented programming</strong> and <strong>functional programming</strong>.</li>
+            <li>Built apps using <strong>Jetpack Compose</strong> for declarative UI development.</li>
+            <li>Integrated <strong>REST APIs</strong> using <strong>Retrofit</strong> and managed data with <strong>Room Database</strong>.</li>
+            <li>Implemented <strong>MVVM Architecture</strong> for scalable and maintainable code.</li>
+          </ul>
+          <a href="assets/certificates/kotlin-android-course.pdf" class="btn btn-primary" download>Download Certificate</a>
+        </div><!-- End Certificate Item -->
+
+        <div class="resume-item">
           <h4>Java Course - Beginner & Intermediate</h4>
           <h5>Sololearn</h5>
-          <p><em>Completed Java programming fundamentals and object-oriented concepts.</em></p>
+          <p><em>Completed <strong>Java programming fundamentals</strong> and <strong>object-oriented concepts</strong>.</em></p>
           <a href="assets/certificates/java-course.pdf" class="btn btn-primary" download>Download Certificate</a>
         </div><!-- End Certificate Item -->
 
         <div class="resume-item">
           <h4>Data Structures & Algorithms (DSA)</h4>
           <h5>Scaler Academy</h5>
-          <p><em>Mastered DSA concepts including arrays, linked lists, trees, graphs, and sorting algorithms.</em></p>
+          <p><em>Mastered <strong>DSA concepts</strong> including <strong>arrays, linked lists, trees, graphs, and sorting algorithms</strong>.</em></p>
           <a href="assets/certificates/dsa-course.pdf" class="btn btn-primary" download>Download Certificate</a>
         </div><!-- End Certificate Item -->
 
         <div class="resume-item">
           <h4>Business Leadership</h4>
           <h5>Idhayam</h5>
-          <p><em>Developed leadership, strategic decision-making, and business management skills.</em></p>
+          <p><em>Developed <strong>leadership, strategic decision-making, and business management</strong> skills.</em></p>
           <a href="assets/certificates/business-leadership.pdf" class="btn btn-primary" download>Download Certificate</a>
         </div><!-- End Certificate Item -->
 
@@ -354,8 +478,7 @@
 
 </section><!-- /Resume Section -->
 
-
-   <!-- Portfolio Section -->
+<!-- Portfolio Section -->
 <section id="portfolio" class="portfolio section light-background">
 
   <!-- Section Title -->
@@ -372,189 +495,245 @@
         <li data-filter="*" class="filter-active">All</li>
         <li data-filter=".filter-app">CampusConnect</li>
         <li data-filter=".filter-product">Attendance</li>
-        <li data-filter=".filter-branding">Photobooth</li>
+        <li data-filter=".filter-branding">Note App</li>
+        <li data-filter=".filter-branding">Weather App</li>
+        <li data-filter=".filter-branding">Quiz App</li>
       </ul><!-- End Portfolio Filters -->
 
-       <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-        <!-- Loop through the 16 images in CampusConnect folder -->
-        <!-- Example for Image 1 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+        <!-- CampusConnect Images -->
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/1.jpg" class="img-fluid" alt="CampusConnect App 1" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/1.jpg" class="img-fluid" alt="CampusConnect App 1">
             <div class="portfolio-info">
              
             </div>
           </div>
         </div><!-- End Portfolio Item -->
-        <!-- Repeat for the remaining 15 images -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+        <!-- Repeat for the remaining CampusConnect images -->
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/2.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/2.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
+              
             </div>
           </div>
         </div><!-- End Portfolio Item -->
-         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/3.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/3.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
+              
             </div>
           </div>
         </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+        <!-- Add more CampusConnect images here -->
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/4.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/4.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item -->
+           
+           <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/5.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/5.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/6.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/6.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/7.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/7.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/8.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/8.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/9.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/9.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/10.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/10.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/11.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/11.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/12.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/12.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/13.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/13.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/14.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/14.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/15.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/15.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+           </div><!-- End Portfolio Item --><div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-app">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/CampusConnect/16.jpg" class="img-fluid" alt="CampusConnect App 2" width="720" height="1600">
+            <img src="assets/img/portfolio/CampusConnect/16.jpg" class="img-fluid" alt="CampusConnect App 2">
             <div class="portfolio-info">
+            </div>
+          </div>
+           </div><!-- End Portfolio Item -->
+
+        <!-- Attendance App Images -->
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/attendance/1.jpg" class="img-fluid" alt="Attendance App 1">
+            <div class="portfolio-info">
+             </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/attendance/2.jpg" class="img-fluid" alt="Attendance App 1">
+            <div class="portfolio-info">
+             </div>
+          </div>
+        </div><!-- End Portfolio Item --> <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/attendance/3.jpg" class="img-fluid" alt="Attendance App 1">
+            <div class="portfolio-info">
+             </div>
+          </div>
+        </div><!-- End Portfolio Item --> <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/attendance/4.jpg" class="img-fluid" alt="Attendance App 1">
+            <div class="portfolio-info">
+             </div>
+          </div>
+        </div><!-- End Portfolio Item --> <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/attendance/5.jpg" class="img-fluid" alt="Attendance App 1">
+            <div class="portfolio-info">
+             
+          </div>
+          </div>
+        </div>
+         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/attendance/6.jpg" class="img-fluid" alt="Attendance App 1">
+            <div class="portfolio-info">
+            </div> 
+          </div>
+        </div><!-- End Portfolio Item -->
+     
+        <!-- Note App Images -->
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/note/1.jpg" class="img-fluid" alt="Note App 1">
+            <div class="portfolio-info">
+             </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+        <!-- Repeat for the remaining Note App images -->
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/note/2.jpg" class="img-fluid" alt="Note App 2">
+            <div class="portfolio-info">
+             </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/note/3.jpg" class="img-fluid" alt="Note App 2">
+            <div class="portfolio-info">
+           </div>  
+          </div>
+        </div><!-- End Portfolio Item -->
+        
+        <!-- Add more Note App images here -->
+
+        <!-- Weather App Images -->
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/weather/1.jpg" class="img-fluid" alt="Weather App 1">
+            <div class="portfolio-info">
+             
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+        <!-- Repeat for the remaining Weather App images -->
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/weather/2.jpg" class="img-fluid" alt="Weather App 2">
+            <div class="portfolio-info">
+             
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+        <!-- Add more Weather App images here -->
+
+        <!-- Quiz App Images -->
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/quiz/1.jpg" class="img-fluid" alt="Quiz App 1">
+            <div class="portfolio-info">
+            
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+        <!-- Repeat for the remaining Quiz App images -->
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/quiz/2.jpg" class="img-fluid" alt="Quiz App 2">
+            <div class="portfolio-info">
+             
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/quiz/3.jpg" class="img-fluid" alt="Quiz App 2">
+            <div class="portfolio-info">
+             
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/quiz/4.jpg" class="img-fluid" alt="Quiz App 2">
+            <div class="portfolio-info">
+             
             </div>
           </div>
         </div><!-- End Portfolio Item -->
 
-
-        <!-- Attendance App -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/attendance/1.jpg" class="img-fluid" alt="Attendance App">
-            <div class="portfolio-info">
-            </div>
-          </div>
-        </div><!-- End Portfolio Item --> 
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-         <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/attendance/2.jpg" class="img-fluid" alt="Attendance App">
-            <div class="portfolio-info">
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-       <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-        <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/attendance/3.jpg" class="img-fluid" alt="Attendance App">
-            <div class="portfolio-info">
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-         <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/attendance/4.jpg" class="img-fluid" alt="Attendance App">
-            <div class="portfolio-info">
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
- <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/attendance/5.jpg" class="img-fluid" alt="Attendance App">
-            <div class="portfolio-info">
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
- <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/attendance/6.jpg" class="img-fluid" alt="Attendance App">
-            <div class="portfolio-info">
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-
-
-
-
-        <!-- Photobooth Branding -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/photobooth-1-720x1600.jpg" class="img-fluid" alt="Photobooth Branding">
-            <div class="portfolio-info">
-              <h4>Photobooth Branding</h4>
-              <p>Branding and UI/UX for a fun, interactive photobooth experience.</p>
-              <a href="assets/img/portfolio/photobooth-1-720x1600.jpg" title="Photobooth Branding" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item --
+        <!-- Add more Quiz App images here -->
 
       </div><!-- End Portfolio Container -->
 
@@ -563,8 +742,6 @@
   </div>
 
 </section><!-- /Portfolio Section -->
-
-
              <!-- Contact Section -->
     <section id="contact" class="contact section">
 
